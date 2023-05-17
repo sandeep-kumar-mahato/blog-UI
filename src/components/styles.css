@@ -239,6 +239,7 @@ hr {
     align-items: center;
     justify-content: flex-start;
     border: 2px solid cadetblue;
+    border-radius: 8px;
     padding: 2rem;
 }
 
@@ -331,7 +332,7 @@ input:focus {
         border: 2px solid cadetblue;
         padding: 1rem;
     }
-
+    
     aside h5,
     .card h1 {
         font-size: 1rem;
