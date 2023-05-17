@@ -151,6 +151,8 @@ hr {
 
 .homecard h1 {
     text-decoration: underline;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
 }
 
 .card-image {
@@ -226,37 +228,13 @@ hr {
 }
 
 
-
 /* Footer */
 .Footer {
-    padding: 20px;
-}
-
-.Footer-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.Footer-links {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.Footer-links li {
-    display: inline-block;
-    margin: 0 10px;
-}
-
-.Footer-links li a {
-    text-decoration: none;
-    color: #333;
+    width: 85%;
+    margin: auto;
 }
 
 .footer {
-    width: 85%;
-    margin: 1rem auto;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -264,12 +242,12 @@ hr {
     padding: 2rem;
 }
 
-.sec-1 {
-    padding-right: 4rem;
+h3 {
+    padding-bottom: 1rem;
 }
 
-h3 {
-    padding-bottom: 2rem;
+.sec-1 {
+    padding-right: 4rem;
 }
 
 .sec-1 a {
@@ -305,4 +283,148 @@ input::placeholder {
 input:focus {
     border: 2px solid rgb(26, 181, 187);
     color: cadetblue;
+}
+
+.Footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2% 0;
+}
+
+@media(max-width: 700px) {
+    * {
+        padding: 0;
+        margin: 0;
+        outline: none;
+        color: rgb(7, 77, 77);
+        font-family: 'Lora', serif;
+    }
+
+    /* ----------Logo---------- */
+
+    .logo {
+        width: 20%;
+        border-radius: 50%;
+    }
+
+    /* ----------Intro Section---------- */
+
+    section {
+        width: 90%;
+        height: 31.8rem;
+        display: block;
+        margin: 1rem auto;
+        padding: 1rem 0;
+    }
+
+    .intro-img {
+        width: 100%;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    aside {
+        width: 90%;
+        border: 2px solid cadetblue;
+        padding: 1rem;
+    }
+
+    aside h5,
+    .card h1 {
+        font-size: 1rem;
+        padding: 0;
+    }
+
+    aside h1 {
+        padding: 0;
+        font-size: 2rem;
+    }
+
+    aside p,
+    .card p {
+        text-align: left;
+        font-size: 1rem;
+    }
+
+    button {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    /* ----------Latest Posts---------- */
+
+    hr {
+        width: 25%;
+    }
+
+    .horizontal-heading {
+        width: 100%;
+        margin: 2rem auto 0;
+        font-size: 1rem;
+    }
+
+    .cards {
+        width: 100%;
+        display: block;
+    }
+
+    .homecard h1 {
+        font-size: 1.2rem;
+        letter-spacing: 0.8px;
+        line-height: 1.6rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .card-image {
+        width: 100%;
+    }
+
+    /* ----------Footer---------- */
+    .Footer {
+        width: 90%;
+        margin: auto;
+    }
+
+    .footer {
+        display: block;
+        padding: 1rem;
+    }
+
+    .footer h3 {
+        padding: 1rem 0 0.5rem;
+        font-size: 1rem;
+    }
+
+    .sec-1 a {
+        line-height: 1.5rem;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        color: cadetblue;
+    }
+
+    .sec-2 p {
+        font-size: 1rem;
+    }
+
+    form {
+        display: block;
+        width: 80%;
+    }
+
+    input {
+        width: 100%;
+        margin: 1rem 0 0;
+        padding: 1rem 1.5rem;
+        font-size: 1rem;
+        border: 2px solid cadetblue;
+        transition: 0.5s;
+    }
+
+    .Footer-content p {
+        display: block;
+        font-size: 0.9rem;
+    }
 }
